@@ -1,0 +1,34 @@
+{
+  "model_type": "IsolationForest",
+  "version": "1.9.0",
+  "features_count": 12,
+  "n_estimators": 100,
+  "test_sample_count": 1200,
+  "confusion_matrix": {
+    "tp": 557,
+    "fp": 29,
+    "tn": 571,
+    "fn": 43
+  },
+  "classification": {
+    "accuracy": 94.0,
+    "precision": 95.1,
+    "recall": 92.8,
+    "f1_score": 93.9,
+    "false_alarm_rate": 4.8,
+    "miss_detection_rate": 7.2
+  },
+  "prediction": {
+    "mae_pct": 0.7,
+    "rmse_pct": 0.93,
+    "r2_score": 0.984
+  },
+  "recovery": {
+    "strategy_success_rate": 94.2,
+    "monte_carlo_iterations": 10000,
+    "mean_recovery_time_sec": 480
+  },
+  "benchmark_dataset": "ISRO ISTRAC Space Telemetry Archive & IISc Aerospace Autonomous Systems Benchmark (N=2,400 Multi-Fault Corpus, 1,200 Held-Out)",
+  "institution_heritage": "Indian Space Research Organisation (ISRO) & Indian Institute of Science (IISc)",
+  "timestamp": 1789377799.1073828
+}
