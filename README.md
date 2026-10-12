@@ -87,7 +87,7 @@ Open `firmware/cubesat_hil_firmware.ino` in Arduino IDE:
 ## 🔌 Connecting Physical Hardware in Browser (Zero Installation)
 
 1. Open the dashboard in **Google Chrome** or **Microsoft Edge** at:  
-   **[http://localhost:8000](http://localhost:8000)**
+   **[(https://naveenkaranrs.github.io/ASTRA-GDS-v3.0/static/index.html)]**
 2. Click **`CONNECT USB SERIAL ⚡`** in the top navigation bar.
 3. Select your ESP32's USB COM port in the browser popup.
 4. **Instant Synchronization**: As you physically tilt and rotate your CubeSat model, the 3D WebGL satellite model rotates simultaneously with $<23\text{ ms}$ latency!
@@ -108,7 +108,7 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-Open **[http://localhost:8000](http://localhost:8000)** in your browser.
+Open **[https://naveenkaranrs.github.io/ASTRA-GDS-v3.0/static/index.html]** in your browser.
 
 ### 3. Verification Test Suite
 Run the automated end-to-end backend test suite:
